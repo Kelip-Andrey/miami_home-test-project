@@ -1,0 +1,723 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-weight: unset;
+}
+
+h1, h2 {
+  font-family: UbuntuLight;
+  font-size: 48px;
+}
+
+h1 {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+  margin: 0 0 0 -3px ;
+  line-height: 60px;
+}
+
+h2 {
+  margin: 0 1px 0 0;
+  text-align: center;
+  position: relative;
+  top: -28px;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 36px;
+  margin: 0;  
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  line-height: 24px;
+}
+
+header {
+  background-image: url(img/Layer\ 43.png);
+  width: 1260px;
+  height: 765px;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+b {
+  font-family: UbuntuBold;
+}
+
+i {
+  font-family: UbuntuItalic;
+  color: #696973;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.header-background {
+  position: relative;
+}
+
+.header-background img {
+  position: absolute;
+  top: 577px;
+}
+
+.container {
+  position: relative;
+  width: 940px;
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: UbuntuRegular;
+  font-size: 16px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  font-family: UbuntuMedium;
+  color: #9fa1b4;
+}
+ 
+.phone-number, 
+.call-button {
+  margin-top: 95px;
+} 
+
+.call-button {
+  border-bottom: 1px dashed #9fa1b4;
+  height: 21px;
+}
+
+.logo {
+  margin-top: 55px;
+  margin-left: 6px;
+}
+
+nav {
+  margin: 553px 4px 0 1px;
+}
+
+nav ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav a {
+  font-family: UbuntuMedium;
+  color: #ffffff;
+}
+
+.strong {
+  font-family: UbuntuMedium;
+}
+
+
+
+.about-us {
+  margin: 126px 0 163px;
+}
+
+.about-us h2 {
+  top: -29px;
+  margin: 0;
+}
+
+.about-us-content {
+  display: inline-block;
+  width: 530px;
+  margin: 8px 0 0 99px;
+  line-height: 24px;
+}
+
+.about-us-content p {
+  margin: 0;
+}
+
+.about-us-content ol {
+  padding: 0;
+  margin-top: 38px;
+  margin-bottom: 44px;
+  width: 415px;
+  line-height: 18px;
+}
+
+.about-us-content li {
+  margin-top: 6px;
+}
+
+.about-us-content .never-late {
+  margin-left: -3px;
+}
+
+
+
+.gallery,
+.testimonials {
+  background-color: #eeeeee;
+}
+
+.underline {
+  text-align: center;
+  position: relative;
+}
+
+.blue-line1,
+.blue-line2 {
+  display: inline-block;
+  background-color: #00aaef;
+  height: 2px;
+  position: relative;
+  top: -12px;
+}
+
+.gallery .container {
+  padding-bottom: 110px;
+}
+
+.gallery .underline {
+  top: -23px;
+  left: 1px;  
+  margin-bottom: 38px;;
+}
+
+.gallery .blue-line1 {
+  width: 75px;
+  right: 5px;
+}
+
+.gallery .blue-line2 {
+  width: 74px;
+  left: 4px;
+}
+
+.photo-block-1 {
+  width: 939px;
+}
+
+.photo-block-3 {
+  width: 939px;
+  margin-left: 1px;
+}
+
+.photo-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo {
+  overflow: hidden;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.photo-1-1, 
+.photo-3-2 {
+  width: 620px;
+  height: 260px;
+}
+
+.photo-1-2,
+.photo-3-1 {
+  width: 300px;
+  height: 260px;
+}
+
+.photo-2-1,
+.photo-2-2 {
+  width: 460px;
+  height: 260px;
+}
+
+.photo-1-1 img {
+  position: relative;
+  bottom: 68px;
+  right: 2px;
+}
+
+.photo-1-2 img {
+  position: relative;
+  right: 122px;
+  bottom: 3px;
+}
+
+.photo-2-1 img {
+  position: relative;
+  right: 55px;
+  bottom: 21px;
+}
+
+.photo-2-2 img {
+  position: relative;
+  bottom: 43px;
+  right: 11px;
+}
+
+.photo-3-1 img {
+  position: relative;
+  bottom: 3px;
+  right: 66px;
+}
+
+.photo-3-2 img {
+  position: relative;
+  bottom: 93px;
+  right: 4px;
+}
+
+.gallery figcaption {
+  margin: 15px -1px 31px;
+}
+
+.gallery .figcaption-2 {
+  margin: 13px -1px 34px;
+}
+
+.gallery .figcaption-3  {
+  margin: 19px -2px 35px;
+}
+ 
+.blue-text {
+  color: #00aaef;
+}
+
+.view-all-button {
+  display: block;
+  margin-left: -1px;
+}
+
+.view-all-button div {    
+  background-color: #00aaef;
+  width: 188px;
+  height: 52px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 18px;
+  font-size: 14px;
+}
+
+
+
+.consultation .container {
+  left: 1px;
+}
+
+.consultation h2 {
+  top: -29px;
+}
+
+.consultation .underline {
+  top: -24px;
+  right: 1px;
+  margin-bottom: 70px;;
+}
+
+.consultation .blue-line1 {
+  width: 143px;
+  right: 4px;
+}
+
+.consultation .blue-line2 {
+  width: 149px;
+  left: 4px;
+}
+
+.consultation-content {
+  display: inline-block;
+  padding-left: 5px;
+  width: 460px;
+  vertical-align: top;
+}
+
+.consultation h3 {
+  margin-bottom: 35px;
+}
+
+.consultation p {
+  padding-left: 1px;
+}
+
+.consultation form {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 96px;
+  margin-top: 8px;
+}
+
+.consultation input {
+  box-sizing: content-box;
+  width: 375px;
+  height: 52px;
+  margin-bottom: 10px;
+  background-color: #eeeeee;
+  padding: 0 5px 0 0;
+  border: none;
+  text-align: center;
+  color: #393939;
+  font: 14px UbuntuBold;
+}
+
+.consultation-button {
+  width: 380px;
+  height: 52px;
+  background-color: #00aaef;
+  text-align: center;
+  color: white;
+  padding-top: 18px;
+  margin: 2px 0 146px;
+  font-size: 14px;
+}
+
+
+
+.testimonials h2 {
+  margin-right: 2px;
+}
+
+.testimonials .underline {
+  bottom: 23px;
+  right: 1px;
+  margin-bottom: 32px;
+}
+
+.testimonials .blue-line1 {
+  width: 141px;
+  right: 3px;
+}
+
+.testimonials .blue-line2 {
+  width: 137px;
+  left: 3px;
+}
+
+.quotes, .quote-2,
+.testimonials figure {
+  display: inline-block;
+}
+
+.quotes, .quote-2 {
+  font: 113px Didot;
+  position: absolute;
+  margin: 0;
+  z-index: 2;
+}
+
+.quotes {
+  left: -40px;
+  top: 23px;
+}
+
+.quote-2 {
+  left: 19px;
+}
+
+.photo-person {
+  width: 147px;
+  height: 147px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.testimonials p {
+  margin-top: 29px;
+  line-height: 22px;
+}
+
+.person {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  text-align: center;
+  margin-bottom: 107px; 
+}
+
+.joni {
+  left: 10px;
+  width: 250px;
+}
+
+.joni figure {
+  position: relative;
+  left: 15px;
+}
+
+.joni img {
+  right: 83px;
+  bottom: 4px;
+  position: relative;
+}
+
+.joni figcaption {
+  margin-top: 9px;
+  line-height: 22px;
+  margin-right: 3px;
+}
+
+.usmanov {
+  left: 76px;
+  width: 281px;
+}
+
+.usmanov figure {
+  position: relative;
+  left: 5px;
+}
+
+.usmanov img {
+  right: 9px;
+  bottom: 1px;
+  position: relative;
+}
+
+.usmanov figcaption {
+  margin-top: 9px;
+  line-height: 22px;
+  margin-right: 3px;
+}
+
+.mordashov {
+  left: 123px;
+  width: 250px;
+}
+
+.mordashov figure {
+  position: relative;
+  left: 5px;
+}
+
+.mordashov img {
+  right: 14px;
+  bottom: 14px;
+  position: relative;
+}
+
+.mordashov figcaption {
+  margin-top: 9px;
+  line-height: 22px;
+  margin-right: 3px;
+}
+
+.mordashov .quotes {
+  left: -34px;
+}
+
+
+
+
+.contacts .container {
+  width: 942px;
+}
+
+.contacts h2 {
+  margin-right: -5px;
+  top: -27px;
+}
+
+.contacts .underline {
+  bottom: 22px;
+  left: 4px;
+}
+
+.contacts .blue-line1 {
+  width: 79px;
+  right: 4px;
+}
+
+.contacts .blue-line2 {
+  width: 89px;
+  left: 4px;
+}
+
+.contacts-content {
+  font-size: 24px;
+  display: inline-block;
+  margin: 49px 0 187px 10px;
+}
+
+.contacts p {
+  line-height: 30px;
+  margin: 30px 0;
+}
+
+.contacts form {
+  position: absolute;
+  right: -1px;
+  top: 155px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contacts input {
+  width: 380px;
+  height: 52px;
+  margin-bottom: 10px;
+  background-color: #eeeeee;
+  border: none;
+  padding-right: 5px;
+  text-align: center;
+  color: #393939;
+  font: 14px UbuntuBold;
+}
+
+.contacts textarea {
+  width: 380px;
+  height: 166px;
+  margin-bottom: 8px;
+  padding: 18px 6px 0 1px;
+  background-color: #eeeeee;
+  border: none;
+  text-align: center;
+  color: #393939;
+  font: 14px UbuntuBold;
+  resize: none;
+}
+
+.contacts-button {
+  width: 380px;
+  height: 52px;
+  background-color: #00aaef;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  padding-top: 18px;
+  margin-bottom:  146px;
+}
+
+footer {
+  display: block;
+  height: 540px;
+  width: 1260px;
+  margin: 0 auto;
+}
+
+footer .logo {
+  position: relative;
+  bottom: 312px;
+  margin: 0;
+  margin-left: 1px;
+  text-align: center;
+  z-index: 2;
+  opacity: 0.9;
+}
+
+.copyright {
+  position: relative;
+  bottom: 169px;
+  margin-right: 3px;
+  text-align: center;
+  color: #ffffff;
+  font: 16px UbuntuMedium;
+}
+
+
+
+
+
+#modalWindow {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  display: none;
+
+
+}
+
+#modalWindow.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modalWindow img {
+  border-radius: 10px;;
+}
+
+
+
+
+
+@font-face {
+  font-family: "UbuntuRegular"; 
+  src: url("fonts/Ubuntu-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  font-family: "UbuntuBold"; 
+  src: url("fonts/Ubuntu-Bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  font-family: "UbuntuBoldItalic"; 
+  src: url("fonts/Ubuntu-BoldItalic.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  font-family: "UbuntuItalic"; 
+  src: url("fonts/Ubuntu-Italic.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  font-family: "UbuntuLight"; 
+  src: url("fonts/Ubuntu-Light.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  font-family: "UbuntuLightItalic"; 
+  src: url("fonts/Ubuntu-LightItalic.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  font-family: "UbuntuMedium"; 
+  src: url("fonts/Ubuntu-Medium.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  font-family: "UbuntuMediumItalic"; 
+  src: url("fonts/Ubuntu-MediumItalic.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "Didot"; 
+  src: url("fonts/GFSDidot-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
